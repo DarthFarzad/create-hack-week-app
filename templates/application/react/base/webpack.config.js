@@ -1,10 +1,11 @@
 const HtmlWebPackPlugin = require("html-webpack-plugin");
 const ModuleFederationPlugin = require("webpack/lib/container/ModuleFederationPlugin");
+require('dotenv').config();
 
 const deps = require("./package.json").dependencies;
 module.exports = {
   output: {
-    publicPath: "http://localhost:{{PORT}}/",
+    publicPath: process.env.HOST,
   },
 
   resolve: {
@@ -12,7 +13,7 @@ module.exports = {
   },
 
   devServer: {
-    port: {{PORT}},
+    port: process.env.PORT,
     historyApiFallback: true,
   },
 
