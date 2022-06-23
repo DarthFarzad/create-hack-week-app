@@ -10,8 +10,8 @@
   },
   "license": "MIT",
   "author": {
-    "name": "Jack Herrington",
-    "email": "jherr@pobox.com"
+    "name": "Farzad Slamdien",
+    "email": "farzad@slamdien.co.za"
   },
   "devDependencies": {
     "@babel/core": "^7.15.8",
@@ -32,6 +32,7 @@
   "dependencies": {
     "@babel/runtime": "^7.13.10",
     "react": "^17.0.2",
-    "react-dom": "^17.0.2"
+    "react-dom": "^17.0.2",
+    "dotenv": "^16.0.1"
   }
 }
