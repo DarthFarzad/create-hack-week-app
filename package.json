@@ -9,9 +9,9 @@
   "license": "MIT",
   "description": "Create Module Federation apps",
   "main": "src/index.ts",
-  "bin": "bin/create-mf-app.js",
+  "bin": "bin/create-hack-week-app.ts",
   "scripts": {
-    "start": "tsc && node bin/create-mf-app.js",
+    "start": "tsc && node bin//create-hack-week-app.ts",
     "build": "tsc",
     "lint": "eslint . --ext .js --fix",
     "prepare": "husky install"
