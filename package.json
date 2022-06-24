@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "repository": {
     "type": "git",
-    "url": "https://github.com/DarthFarzad/create-hack-week-app.git"
+    "url": "https://github.com/DarthFarzad/create-hack-week-app"
   },
   "author": "Darth Farzad <farzad@slamdien.co.za>",
   "license": "MIT",
